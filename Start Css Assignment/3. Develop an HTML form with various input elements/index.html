@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.Develop an HTML form with various input elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Custom color palette */
+        input[type="text"] {
+            background-color: #8bbfc5;
+        }
+
+        input[type="email"] {
+            background-color: #ffecb3;
+        }
+
+        input[type="password"] {
+            background-color: #e8f5e9;
+        }
+
+        /* Applying opacity to a form section */
+        .opacity-section {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Your password">
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Type your message"></textarea>
+
+        <div class="opacity-section">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Your age">
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

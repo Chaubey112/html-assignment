@@ -1,0 +1,38 @@
+/* Base styles for all paragraphs */
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the introduction paragraph */
+  .paragraph-block {
+    font-weight: bold;
+
+  }
+  
+  /* Styles for the highlighted paragraph */
+  .paragraph__element {
+    background-color: yellow;
+  }
+  
+  /* Styles for the warning paragraph */
+  .paragraph--modifier {
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+  }
+  h1{
+    text-align: center;
+    font-weight: lighter;
+    color: red;
+  }
+  h2{
+    text-align: center;
+    color: green
+  }
+  .explanation{
+    border: 2px solid  black;
+  }
+  
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>BEM Styled Paragraphs</title>
+</head>
+<body>
+    <h1>This is Paragraph of used by BEM Name</h1>
+
+  <p class="paragraph paragraph-block">This is the Block Paragraph.</p>
+
+  <p class="paragraph paragraph__element">This is the Element Pragraph.</p>
+
+  <p class="paragraph paragraph--modifier">This is a Modifier Pragraph.</p>
+
+  <h2>This is a Explanation of BEM </h2>
+ <p class="explanation">
+    (1). <b style="color:blue;">Block:</b>
+    
+    Blocks are standalone components that represent a higher-level structure in the HTML. They can be thought of as parent components.
+    In CSS, block names are written in all lowercase and represent the main container of the component. For example, a navigation bar could be a block named .navbar.
+          <br>
+
+   (2). <b style="color:blue;">Element:</b>
+    
+    Elements are the individual parts or components within a block that cannot exist or have meaning outside of the block. They are always tied to a specific block.
+    Element names are separated from the block by two underscores (__).
+              <br>
+
+   (3). <b style="color:blue;">Modifier:</b>
+    
+    Modifiers are used to change the appearance or behavior of a block or an element. They add variations to blocks or elements without altering their core structure.
+    Modifier names are separated from the block or element by two hyphens (--). </p>
+</body>
+</html>
